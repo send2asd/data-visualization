@@ -1,78 +1,48 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>D3 Bar Chart Example</title>
-        <script src="https://d3js.org/d3.v7.min.js"></script>
-        <style>
-            .bar {
-                fill: steelblue;
-            }
-            .bar:hover {
-                fill: orange;
-            }
-            .axis-label {
-                font-size: 14px;
-            }
-        </style>
-    </head>
-    <body>
-        <svg width="600" height="400"></svg>
-        <script>
-            // Sample data
-            const dataset = [
-                { name: "Apples", count: 24 },
-                { name: "Oranges", count: 10 },
-                { name: "Bananas", count: 32 },
-                { name: "Grapes", count: 18 },
-                { name: "Pears", count: 15 }
-            ];
-    
-            // Set dimensions and margins for the graph
-            const margin = {top: 20, right: 20, bottom: 30, left: 40},
-                width = 600 - margin.left - margin.right,
-                height = 400 - margin.top - margin.bottom;
-    
-            // Append the svg object to the body of the page
-            const svg = d3.select("svg")
-                .attr("width", width + margin.left + margin.right)
-                .attr("height", height + margin.top + margin.bottom)
-              .append("g")
-                .attr("transform",
-                      "translate(" + margin.left + "," + margin.top + ")");
-    
-            // X axis
-            const x = d3.scaleBand()
-                .range([0, width])
-                .domain(dataset.map(function(d) { return d.name; }))
-                .padding(0.1);
-            svg.append("g")
-                .attr("transform", "translate(0," + height + ")")
-                .call(d3.axisBottom(x))
-              .selectAll(".axis-label")
-                .style("text-anchor", "end")
-                .attr("dx", "-.8em")
-                .attr("dy", ".15em")
-                .attr("transform", "rotate(-65)");
-    
-            // Add Y axis
-            const y = d3.scaleLinear()
-                .domain([0, d3.max(dataset, function(d) { return d.count; })])
-                .range([height, 0]);
-            svg.append("g")
-                .call(d3.axisLeft(y));
-    
-            // Bars
-            svg.selectAll(".bar")
-                .data(dataset)
-                .enter()
-                .append("rect")
-                  .attr("class", "bar")
-                  .attr("x", function(d) { return x(d.name); })
-                  .attr("y", function(d) { return y(d.count); })
-                  .attr("width", x.bandwidth())
-                  .attr("height", function(d) { return height - y(d.count); });
-        </script>
-    </body>
-    </html>
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualization Project</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    	.bar {
+            fill-opacity: 0.7;
+        }
+        .bar:hover {
+            fill-opacity: 1;
+        }
+        .axis-label {
+            font-size: 14px;
+            font-family: sans-serif;
+        }
+        .legend {
+            font-family: sans-serif;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Visualization Project</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Historical Timeline</a></li>
+                    <li><a href="timeline.html">Key Historical Event Timeline</a></li>
+                    <li><a href="map.html">Map</a></li>
+                    <li><a href="sunburst.html">Zoomable Sunburst</a></li>
+                    <li><a href="tree.html">Cluster Tree</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <script src="Timeline2.js"></script>
+    <footer>
+        <p class="copyright">&copy; 2023 Visualization Project. All rights reserved.</p>
+    </footer>
+</body>
+</html>
