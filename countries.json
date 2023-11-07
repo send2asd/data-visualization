@@ -1,0 +1,2789 @@
+{
+  "name": "countries",
+  "children": [
+    {
+      "name": "Argentina Dictatorship (1976-1983)",
+      "children": [
+        {
+          "name": "categories",
+          "children": [
+            {
+              "name": "Dictatorship",
+              "size": 17597
+            },
+            {
+              "name": "coup",
+              "size": 11392
+            },
+            {
+              "name": "Operation Condor",
+              "size": 20634
+            },
+            {
+              "name": "international armed conflict",
+              "size": 12318
+            },
+            {
+              "name": "truth commission",
+              "size": 10400
+            },
+            {
+              "name": "state museum",
+              "size": 5232
+            },
+            {
+              "name": "memorial sites",
+              "size": 4224
+            }
+          ]
+        },
+        {
+          "name": "actors",
+          "children": [
+            {
+              "name": "Argentine Armed Forces",
+              "size": 18039
+            },
+            {
+              "name": "Peronism Groups",
+              "size": 17972
+            },
+            {
+              "name": "social organizations",
+              "size": 9756
+            },
+            {
+              "name": "guerrilla movements (active decades)",
+              "size": 1587
+            }
+          ]
+        },
+        {
+          "name": "key_historical_events",
+          "children": [
+            {
+              "name": "1973-1976",
+              "children": [
+                {
+                  "name": "Turmoil and Instability",
+                  "size": 2639
+                }
+              ]
+            },
+            {
+              "name": "1976",
+              "children": [
+                {
+                  "name": "Rise of Videla's Military JuntaOnset of State Terrorism",
+                  "size": 1128
+                },
+                {
+                  "name": "Onset of State Terrorism",
+                  "size": 2628
+                }
+              ]
+            },
+            {
+              "name": "1977",
+              "children": [
+                {
+                  "name": "Plaza de Mayo",
+                  "size": 19909
+                }
+              ]
+            },
+            {
+              "name": "1979",
+              "children": [
+                {
+                  "name": "Human Rights Mission Investigates Disappearances",
+                  "size": 4231  
+                }
+              ]
+            },
+            {
+              "name": "1982",
+              "children": [
+                {
+                  "name": "Malvinas/Falklands Conflict",
+                  "children": [
+                    {
+                      "name": "Junta's Defeat",
+                      "size": 7142
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "1982",
+              "children": [
+                {
+                  "name": "Year of Protests",
+                  "size": 14742
+                }
+              ]
+            },
+            {
+              "name": "1983",
+              "children": [
+                {
+                  "name": "Raúl Alfonsín's became President",
+                  "size": 12637
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "memory_initiatives",
+          "children": [
+            {
+              "name": "CONADEP's Revelation(1984)",
+              "size": 24581
+            },
+            {
+              "name": "Abolishing Amnesty",
+              "size": 9502
+            },
+            {
+              "name": "Memory and Justice",
+              "size": 570
+            },
+            {
+              "name": "Preservation Law 26.691",
+              "size": 7854
+            }
+          ]
+        },
+        {
+          "name": "sites_of_memory",
+          "children": [
+            {
+              "name": "ESMA Conversion",
+              "size": 16432
+            },
+            {
+              "name": "Córdoba's Archive for Memory",
+              "size": 8903
+            },
+            {
+              "name": "Memory Park",
+              "size": 21084
+            }
+          ]
+        },
+        {
+          "name": "organizations",
+          "children": [
+            {
+              "name": "SERPAJ Argentina",
+              "size": 2715
+            },
+            {
+              "name": "Permanent Assembly for Human Rights",
+              "size": 1611
+            },
+            {
+              "name": "Madres de la Plaza de Mayo",
+              "size": 21964
+            },
+            {
+              "name": "Comisión Nacional sobre la Desaparición de Personas",
+              "size": 10475
+            }
+          ]
+        },
+        {
+          "name": "issues_specific_to_the_country",
+          "children": [
+            {
+              "name": "No issue mentioned",
+              "size": 2450
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bolivia Dictatorships (1964-1982)",
+      "children": [
+        {
+          "name": "categories",
+          "children": [
+            {
+              "name": "Dictatorship",
+              "size": 21395
+            },
+            {
+              "name": "coup",
+              "size": 21007
+            },
+            {
+              "name": "Operation Condor",
+              "size": 7205
+            },
+            {
+              "name": "reparation law",
+              "size": 1266
+            },
+            {
+              "name": "truth commission",
+              "size": 11081
+            },
+            {
+              "name": "indigenous peoples",
+              "size": 23578
+            }
+          ]
+        },
+        {
+          "name": "actors",
+          "children": [
+            {
+              "name": "Bolivian armed forces, headed by different generals",
+              "size": 6433
+            },
+            {
+              "name": "political parties",
+              "size": 24403
+            },
+            {
+              "name": "workers' political organizations",
+              "size": 5438
+            },
+            {
+              "name": "peasants' organizations",
+              "size": 14079
+            },
+            {
+              "name": "Bolivian indigenous peoples, civil organizations",
+              "size": 9043
+            }
+          ]
+        },
+        {
+          "name": "key_historical_events",
+          "children": [
+            {
+              "name": "1964",
+              "children": [
+                {
+                  "name": "military junta: general René Barrientos",
+                  "size": 18910
+                }
+              ]
+            },
+            {
+              "name": "1967",
+              "children": [
+                {
+                  "name": "Masacre de San Juan",
+                  "children": [
+                    {
+                      "name": "mining camps of Catavi invaded",
+                      "size": 19614
+                    }
+                  ] 
+                }
+              ]
+            },
+            {
+              "name": "1969-1970",
+              "children": [
+                {
+                  "name": "Succession of Bolivian Military Leaders",
+                  "size": 11870
+                }
+              ]
+            },
+            {
+              "name": "1971",
+              "children": [
+                {
+                  "name": "Coup by Colonel Hugo Banzer and Violent Repression",
+                  "size": 16950
+                }
+              ]
+            },
+            {
+              "name": "1974",
+              "children": [
+                {
+                  "name": "Masacre del Valle - Repression of Peasant Protests",
+                  "size": 8292
+                }
+              ]
+            },
+            {
+              "name": "1975",
+              "children": [
+                {
+                  "name": "Publication of Si me permiten hablar by Moema Viezzer",
+                  "size": 45
+                }
+              ]
+            },
+            {
+              "name": "1978",
+              "children": [
+                {
+                  "name": "Period of Political Instability in Bolivia",
+                  "size": 17951
+                }
+              ]
+            },
+            {
+              "name": "1979",
+              "children": [
+                {
+                  "name": "Masacre de Todos Santos - Natusch's Coup and Violent Protests",
+                  "size": 12720
+                }
+              ]
+            },
+            {
+              "name": "1980",
+              "children": [
+                {
+                  "name": "Assassination of Priest Luis Espinal",
+                  "size": 12904
+                },
+                {
+                  "name": "Coup by General Luis García Meza and Violent Repression.",
+                  "size": 13599
+                }
+              ]
+            },
+            {
+              "name": "1982",
+              "children": [
+                {
+                  "name": "Military Junta's Resignation and Hernán Siles Suazo's Presidency",
+                  "size": 7406
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "memory_initiatives",
+          "children": [
+            {
+              "name": "Decretos Supremos 19.241 and 19.734",
+              "children": 
+              [
+                {
+                  "name": "Establishment of the Commission on Forced Disappearances",
+                  "size": 15096
+                }
+              ]
+            },
+            {
+              "name": "Ley 2.640 - Law for Reparation of Victims of Political Violence",
+              "size": 19367
+            }
+          ]
+        },
+        {
+          "name": "sites_of_memory",
+          "children": [
+            {
+              "name": "Espacio de la Memoria Histórica",
+              "children": 
+              [
+                {
+                  "name": "Memorial Space for Bolivian People's Struggles",
+                  "size": 22781
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "organizations",
+          "children": [
+            {
+              "name": "APDHB - Permanent Assembly for Human Rights in Bolivia",
+              "size": 7043
+            },
+            {
+              "name": "Association of Rights Victims' Relatives (ASOFAMD)",
+              "size": 1494
+            },
+            {
+              "name": "National Commission on Forced Disappearances in Bolivia",
+              "size": 23594
+            },
+            {
+              "name": "Truth Commission for Dictatorship-Era Abuses (2017)",
+              "size": 14938
+            },
+            {
+              "name": "Platform of Social Activists and Dictatorship Survivors",
+              "size": 9404
+            }
+          ]
+        },
+        {
+          "name": "issues_specific_to_the_country",
+          "children": [
+            {
+              "name": "Bolivia's Delayed Investigations into Violence",
+              "size": 13617
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brazil Dictatorship (1964-1985)",
+      "children": [
+        {
+          "name": "categories",
+          "children": [
+            {
+              "name": "Dictatorship",
+              "size": 8693
+            },
+            {
+              "name": "coup",
+              "size": 13522
+            },
+            {
+              "name": "Operation Condor",
+              "size": 13667
+            },
+            {
+              "name": "amnesty law",
+              "size": 19146
+            },
+            {
+              "name": "reparations law",
+              "size": 4209
+            },
+            {
+              "name": "truth commission",
+              "size": 14870
+            },
+            {
+              "name": "memorial sites",
+              "size": 1170
+            }
+          ]
+        },
+        {
+          "name": "actors",
+          "children": [
+            {
+              "name": "Brazilian state",
+              "size": 3177
+            },
+            {
+              "name": "Brazilian Armed Forces",
+              "size": 12626
+            },
+            {
+              "name": "Limited Political Parties During Dictatorship.",
+              "size": 9216
+            },
+            {
+              "name": "several civil organizations",
+              "size": 24564
+            }
+          ]
+        },
+        {
+          "name": "key_historical_events",
+          "children": [
+            {
+              "name": "1964",
+              "children": [
+                {
+                  "name": "March 31, Coup Against Goulart & Repressive Dictatorship.",
+                  "size": 2208
+                }
+              ]
+            },
+            {
+              "name": "1968",
+              "children": [
+                {
+                  "name": "Passeata dos Cem Mil, Massive Anti-Dictatorship Protest.",
+                  "size": 11401
+                }
+              ]
+            },
+            {
+              "name": "1972",
+              "children": [
+                {
+                  "name": "Amnesty International Report on Torture Victims",
+                  "size": 12058
+                }
+              ]
+            },
+            {
+              "name": "1974",
+              "children": [
+                {
+                  "name": "Feb 23, Student Fernando Cruz's Forced Disappearance.",
+                  "size": 9214
+                }
+              ]
+            },
+            {
+              "name": "1975",
+              "children": [
+                {
+                  "name": "October 26, Journalist Vladimir Herzog's Torture/Murder.",
+                  "size": 1210
+                }
+              ]
+            },
+            {
+              "name": "1976",
+              "children": [
+                {
+                  "name": "January 16 & 17, Metalworker Manoel Fiel Filho's Torture/Murder",
+                  "size": 204
+                }
+              ]
+            },
+            {
+              "name": "1977",
+              "children": [
+                {
+                  "name": "Reading of Carta brasileiros at University of São Paulo.",
+                  "size": 22597
+                }
+              ]
+            },
+            {
+              "name": "1979",
+              "children": [
+                {
+                  "name": "Lei da Anistia - Amnesty Law in Brazil.",
+                  "size": 15498
+                }
+              ]
+            },
+            {
+              "name": "1985",
+              "children": [
+                {
+                  "name": "Publication of Brasil: nunca mais, Political Transitions.",
+                  "size": 10284
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "memory_initiatives",
+          "children": [
+            {
+              "name": "Lei dos Desaparecidos (1995) Law of the Disappeared",
+              "size": 6572
+            },
+            {
+              "name": "Lei N°10.559 (2002) Law Creating the Amnesty Commission.",
+              "size": 15762
+            },
+            {
+              "name": "Direito à Memória e à Verdade (2007)",
+              "size": 18135
+            },
+            {
+              "name": "Report on Political Deaths and Disappearances",
+              "size": 13015
+            },
+            {
+              "name": "Comissão Nacional da Verdade Report (2014)",
+              "size": 4678
+            }
+          ]
+        },
+        {
+          "name": "sites_of_memory",
+          "children": [
+            {
+              "name": "Memorial Pessoas Imprescindíveis Sites for Victims",
+              "size": 1699
+            },
+            {
+              "name": "Anistia Memorial: Unfinished Commemorative Project.",
+              "size": 5214
+            },
+            {
+              "name": "Caminhos Ditadura Porto Alegre (2016) Historical Map.",
+              "size": 12774
+            }
+          ]
+        },
+        {
+          "name": "organizations",
+          "children": [
+            {
+              "name": "Comissão Justiça e Paz: Human Rights Support Organization.",
+              "size": 1996
+            },
+            {
+              "name": "Movimento Feminino Pela Anistia: Amnesty Advocacy Group.",
+              "size": 6975
+            },
+            {
+              "name": "Comissão Especial sobre Mortos e Desaparecidos Políticos",
+              "size": 9767
+            },
+            {
+              "name": "Comissão Nacional Verdade (CNV)",
+              "size": 8816
+            }
+          ]
+        },
+        {
+          "name": "issues_specific_to_the_country",
+          "children": [
+            {
+              "name": "No issues",
+              "size": 52
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chile Dictatorship (1973-1990)",
+      "children": [
+        {
+          "name": "categories",
+          "children": [
+            {
+              "name": "Dictatorship",
+              "size": 709
+            },
+            {
+              "name": "coup",
+              "size": 18850
+            },
+            {
+              "name": "Operation Condor",
+              "size": 5780
+            },
+            {
+              "name": "reparation law",
+              "size": 5165
+            },
+            {
+              "name": "truth commission",
+              "size": 7032
+            },
+            {
+              "name": "state museum",
+              "size": 1830
+            },
+            {
+              "name": "memorial sites",
+              "size": 21945
+            }
+          ]
+        },
+        {
+          "name": "actors",
+          "children": [
+            {
+              "name": "Chilean state",
+              "size": 1298
+            },
+            {
+              "name": "Chilean Armed Forces",
+              "size": 9014
+            },
+            {
+              "name": "Guerrilla groups",
+              "size": 7084
+            },
+            {
+              "name": "a wide spectrum of Chilean political parties",
+              "size": 10348
+            },
+            {
+              "name": "various civil organizations",
+              "size": 6389
+            }
+          ]
+        },
+        {
+          "name": "key_historical_events",
+          "children": [
+            {
+              "name": "1973",
+              "children": [
+                {
+                  "name": "11 Sept, Chilean Coup and Repression.",
+                  "size": 1163
+                }
+              ]
+            },
+            {
+              "name": "1976",
+              "children": [
+                {
+                  "name": "Vicaría de la Solidaridad Foundation.",
+                  "size": 4335
+                }
+              ]
+            },
+            {
+              "name": "1978",
+              "children": [
+                {
+                  "name": "Hornos de Lonquén Massacre: Remains Discovery.",
+                  "size": 20976
+                }
+              ]
+            },
+            {
+              "name": "1983",
+              "children": [
+                {
+                  "name": "Anti-Dictatorship Protests in Santiago.",
+                  "size": 22319
+                }
+              ]
+            },
+            {
+              "name": "1985",
+              "children": [
+                {
+                  "name": "Decapitated Communist Party Members.",
+                  "size": 8647
+                }
+              ]
+            },
+            {
+              "name": "1989",
+              "children": [
+                {
+                  "name": "Referendum Ends Pinochet's Rule.",
+                  "size": 3721
+                }
+              ]
+            },
+            {
+              "name": "1990",
+              "children": [
+                {
+                  "name": "Aylwin Elected President (1990).",
+                  "size": 5150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "memory_initiatives",
+          "children": [
+            {
+              "name": "Informe Rettig (1991) - Truth Commission Report.",
+              "size": 8782
+            },
+            {
+              "name": "PRAIS (1992) - Health Program.",
+              "size": 22160
+            },
+            {
+              "name": "Ley 19.123 (1992) - Human Rights Law.",
+              "size": 11174
+            },
+            {
+              "name": "Ley 20.405 (2009) - Human Rights Institute.",
+              "size": 6523
+            },
+            {
+              "name": "Informe Valech (2005) - Torture Report.",
+              "size": 15126
+            }
+          ]
+        },
+        {
+          "name": "sites_of_memory",
+          "children": [
+            {
+              "name": "Villa Grimaldi: Former Torture Center",
+              "size": 9237
+            },
+            {
+              "name": "Pisagua Memorial: Mass Graves",
+              "size": 15979
+            },
+            {
+              "name": "Memoria Museum: Historical Institution",
+              "size": 14399
+            }
+          ]
+        },
+        {
+          "name": "organizations",
+          "children": [
+            {
+              "name": "AFDD and AFEP: Victim Support",
+              "size": 13166
+            },
+            {
+              "name": "Chilean HR Committee: Non-Governmental Rights Group",
+              "size": 16456
+            },
+            {
+              "name": "Comisión Rettig: Rights Investigation",
+              "size": 16260
+            },
+            {
+              "name": "Comisión Valech: HR Inquiry",
+              "size": 11000
+            },
+            {
+              "name": "Comisión Valech: HR Inquiry",
+              "size": 15588
+            }
+          ]
+        },
+        {
+          "name": "issues_specific_to_the_country",
+          "children": [
+            {
+              "name": "Truth and New Deal Commission: Indigenous Rights Inquiry",
+              "size": 3352
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Colombia Internal Conflict (1958-2016)",
+      "children": [
+        {
+          "name": "categories",
+          "children": [
+            {
+              "name": "Internal armed conflict",
+              "size": 9509
+            },
+            {
+              "name": "indigenous peoples",
+              "size": 23399
+            },
+            {
+              "name": "truth commission",
+              "size": 14246
+            },
+            {
+              "name": "reparations law",
+              "size": 3227
+            },
+            {
+              "name": "memorial sites",
+              "size": 19769
+            }
+          ]
+        },
+        {
+          "name": "actors",
+          "children": [
+            {
+              "name": "Colombian state",
+              "size": 8465
+            },
+            {
+              "name": "Colombian Armed Forces",
+              "size": 10078
+            },
+            {
+              "name": "Guerrilla groups",
+              "size": 17179
+            },
+            {
+              "name": "paramilitary groups",
+              "size": 15914
+            },
+            {
+              "name": "drug dealers’ organizations",
+              "size": 17764
+            },
+            {
+              "name": "Colombian political parties",
+              "size": 15498
+            },
+            {
+              "name": "campesinos",
+              "size": 12432
+            },
+            {
+              "name": "indigenous peoples",
+              "size": 20651
+            },
+            {
+              "name": "various civil organizations",
+              "size": 20269
+            }
+          ]
+        },
+        {
+          "name": "key_historical_events",
+          "children": [
+            {
+              "name": "2016",
+              "children": [
+                {
+                  "name": "Final Peace Agreement",
+                  "size": 2999
+                }
+              ]
+            },
+            {
+              "name": "2012",
+              "children": [
+                {
+                  "name": "Havana Peace Talks",
+                  "size": 2417
+                }
+              ]
+            },
+            {
+              "name": "2008",
+              "children": [
+                {
+                  "name": "Falsos Positivos Scandal",
+                  "size": 22180
+                }
+              ]
+            },
+            {
+              "name": "2003",
+              "children": [
+                {
+                  "name": "AUC Demobilization Starts",
+                  "size": 8185
+                }
+              ]
+            },
+            {
+              "name": "2003",
+              "children": [
+                {
+                  "name": "Plan Patriota Operations",
+                  "size": 5038
+                }
+              ]
+            },
+            {
+              "name": "1999",
+              "children": [
+                {
+                  "name": "Plan Colombia Agreement",
+                  "size": 7907
+                }
+              ]
+            },
+            {
+              "name": "1997",
+              "children": [
+                {
+                  "name": "Peace Citizen Mandate",
+                  "size": 12936
+                }
+              ]
+            },
+            {
+              "name": "1997",
+              "children": [
+                {
+                  "name": "AUC Formation",
+                  "size": 786
+                }
+              ]
+            },
+            {
+              "name": "1993",
+              "children": [
+                {
+                  "name": "Pablo Escobar Killed",
+                  "size": 22548
+                }
+              ]
+            },
+            {
+              "name": "1991",
+              "children": [
+                {
+                  "name": "New Constitution Proclaimed",
+                  "size": 14206
+                }
+              ]
+            },
+            {
+              "name": "1990",
+              "children": [
+                {
+                  "name": "Peace Deal: M-19, EPL",
+                  "size": 23807
+                }
+              ]
+            },
+            {
+              "name": "1989",
+              "children": [
+                {
+                  "name": "Drug War Violence",
+                  "size": 5621
+                }
+              ]
+            },
+            {
+              "name": "1986",
+              "children": [
+                {
+                  "name": "Trujillo Massacre Begins",
+                  "size": 22717
+                }
+              ]
+            },
+            {
+              "name": "1984",
+              "children": [
+                {
+                  "name": "MAQL Indigenous Formation",
+                  "size": 1129
+                }
+              ]
+            },
+            {
+              "name": "1979",
+              "children": [
+                {
+                  "name": "First Rights Forum",
+                  "size": 4541
+                }
+              ]
+            },
+            {
+              "name": "1978",
+              "children": [
+                {
+                  "name": "Decreto 1923: Estatuto de Seguridad",
+                  "size": 8467
+                }
+              ]
+            },
+            {
+              "name": "1977",
+              "children": [
+                {
+                  "name": "National Strike in Colombia",
+                  "size": 2890
+                }
+              ]
+            },
+            {
+              "name": "1974",
+              "children": [
+                {
+                  "name": "M-19 Guerrilla Formation",
+                  "size": 23281
+                }
+              ]
+            },
+            {
+              "name": "1967",
+              "children": [
+                {
+                  "name": "EPL Guerrilla Founded",
+                  "size": 17707
+                }
+              ]
+            },
+            {
+              "name": "1965",
+              "children": [
+                {
+                  "name": "Decree 3398 (Law 48) Issued",
+                  "size": 10638
+                }
+              ]
+            },
+            {
+              "name": "1964",
+              "children": [
+                {
+                  "name": "ELN and FARC Formation",
+                  "size": 7300
+                }
+              ]
+            },
+            {
+              "name": "1958",
+              "children": [
+                {
+                  "name": "Colombia's Frente Nacional Pact",
+                  "size": 12967
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "memory_initiatives",
+          "children": [
+            {
+              "name": "Ley 975 (2005): Demobilization legal framework",
+              "size": 23352
+            },
+            {
+              "name": "Ley 1.448 (2011): Victims' law",
+              "size": 16265
+            },
+            {
+              "name": "SNARIV Victim support network",
+              "size": 7340
+            },
+            {
+              "name": "SIVJRNR Mechanisms (2017)",
+              "size": 14295
+            },
+            {
+              "name": "Truth, JEP, UBPD",
+              "size": 4642
+            },
+            {
+              "name": "Informe CEV (2022)",
+              "size": 24252
+            }
+          ]
+        },
+        {
+          "name": "sites_of_memory",
+          "children": [
+            {
+              "name": "Memoria Histórica institution",
+              "size": 13008
+            },
+            {
+              "name": "Memoria, Paz, Reconciliación",
+              "size": 11107
+            },
+            {
+              "name": "Casa de la Memoria",
+              "size": 14315
+            }
+          ]
+        },
+        {
+          "name": "organizations",
+          "children": [
+            {
+              "name": "ASFADDES (1983)",
+              "size": 17848
+            },
+            {
+              "name": "MOVICE umbrella organization",
+              "size": 15833
+            },
+            {
+              "name": "CNRR (Ley 975)",
+              "size": 23910
+            },
+            {
+              "name": "CEV (2016)",
+              "size": 6202
+            },
+            {
+              "name": "Presidencial Human Rights Council",
+              "size": 14792
+            }
+          ]
+        },
+        {
+          "name": "issues_specific_to_the_country",
+          "children": [
+            {
+              "name": "No issue mentioned",
+              "size": 10167
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ecuador State Violence (1983 - 2008)",
+      "children": [
+        {
+          "name": "categories",
+          "children": [
+            {
+              "name": "Coup",
+              "size": 2575
+            },
+            {
+              "name": "reparation law",
+              "size": 18227
+            },
+            {
+              "name": "indigenous peoples",
+              "size": 16139
+            },
+            {
+              "name": "truth commission",
+              "size": 18147
+            }
+          ]
+        },
+        {
+          "name": "actors",
+          "children": [
+            {
+              "name": "Ecuadorian State",
+              "size": 2113
+            },
+            {
+              "name": "Police and Armed Forces from Ecuador",
+              "size": 17216
+            },
+            {
+              "name": "various political parties from Ecuador",
+              "size": 8833
+            },
+            {
+              "name": "indigenous peoples and their organizations",
+              "size": 22984
+            },
+            {
+              "name": "other civil organizations",
+              "size": 17388
+            }
+          ]
+        },
+        {
+          "name": "key_historical_events",
+          "children": [
+            {
+              "name": "1984",
+              "children": [
+                {
+                  "name": "Rafael Febres-Cordero's presidency",
+                  "size": 22466
+                }
+              ]
+            },
+            {
+              "name": "1985",
+              "children": [
+                {
+                  "name": "AVC members detained, tortured",
+                  "size": 6310
+                },
+                {
+                  "name": "Teacher Consuelo Benavides Ceballos",
+                  "size": 19396
+                }
+              ]
+            },
+            {
+              "name": "1986",
+              "children": [
+                {
+                  "name": "CONAIE Indigenous Confederation",
+                  "size": 6549
+                }
+              ]
+            },
+            {
+              "name": "1988",
+              "children": [
+                {
+                  "name": "Restrepo Arismendi brothers disappeared",
+                  "size": 2515
+                }
+              ]
+            },
+            {
+              "name": "1990",
+              "children": [
+                {
+                  "name": "CONAIE indigenous mobilization",
+                  "size": 2905
+                }
+              ]
+            },
+            {
+              "name": "1993",
+              "children": [
+                {
+                  "name": "11 del Putumayo episode",
+                  "size": 6912
+                }
+              ]
+            },
+            {
+              "name": "1996",
+              "children": [
+                {
+                  "name": "Bucaram's presidency and ousting",
+                  "size": 2022
+                }
+              ]
+            },
+            {
+              "name": "1998",
+              "children": [
+                {
+                  "name": "Jamil Mahuad's presidency and coup",
+                  "size": 14896
+                }
+              ]
+            },
+            {
+              "name": "2002",
+              "children": [
+                {
+                  "name": "Lucio Gutiérrez's presidency and ousting",
+                  "size": 14464
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "memory_initiatives",
+          "children": [
+            {
+              "name": "Informe: sin verdad no justicia",
+              "size": 975
+            },
+            {
+              "name": "Reparation and Judicialization Law",
+              "size": 7307
+            },
+            {
+              "name": "Defensoría del Pueblo's creation",
+              "size": 24371
+            }
+          ]
+        },
+        {
+          "name": "sites_of_memory",
+          "children": [
+            {
+              "name": "Museo de la memoria",
+              "size": 18809
+            }
+          ]
+        },
+        {
+          "name": "organizations",
+          "children": [
+            {
+              "name": "INREDH human rights",
+              "size": 22878
+            },
+            {
+              "name": "Clara Merino's organization",
+              "size": 12565
+            },
+            {
+              "name": "CEDHU rights group",
+              "size": 6953
+            },
+            {
+              "name": "Comisión de la Verdad",
+              "size": 3683
+            }
+          ]
+        },
+        {
+          "name": "issues_specific_to_the_country",
+          "children": [
+            {
+              "name": "No issue mentioned",
+              "size": 7808
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "El Salvador Civil War (1980-1992)",
+      "children": [
+        {
+          "name": "categories",
+          "children": [
+            {
+              "name": "Internal armed conflict",
+              "size": 9179
+            },
+            {
+              "name": "coup",
+              "size": 23753
+            },
+            {
+              "name": "truth commission",
+              "size": 2662
+            },
+            {
+              "name": "indigenous peoples",
+              "size": 1636
+            }
+          ]
+        },
+        {
+          "name": "actors",
+          "children": [
+            {
+              "name": "Salvadorian state",
+              "size": 20662
+            },
+            {
+              "name": "Salvadorian Armed Forces and security corps",
+              "size": 11756
+            },
+            {
+              "name": "paramilitary groups",
+              "size": 2215
+            },
+            {
+              "name": "Guerrilla groups (mainly the FMLN)",
+              "size": 14576
+            },
+            {
+              "name": "campesinos",
+              "size": 17565
+            },
+            {
+              "name": "indigenous peoples",
+              "size": 14584
+            },
+            {
+              "name": "Salvadorian political parties",
+              "size": 12272
+            },
+            {
+              "name": "various civil organizations",
+              "size": 17814
+            }
+          ]
+        },
+        {
+          "name": "key_historical_events",
+          "children": [
+            {
+              "name": "1979",
+              "children": [
+                {
+                  "name": "Army coup ousts Romero.",
+                  "size": 22205
+                }
+              ]
+            },
+            {
+              "name": "1980",
+              "children": [
+                {
+                  "name": "Archbishop Romero assassinated.",
+                  "size": 3691
+                },
+                {
+                  "name": "FMLN guerrilla founded.",
+                  "size": 13167
+                }
+              ]
+            },
+            {
+              "name": "1981",
+              "children": [
+                {
+                  "name": "El Mozote massacre.",
+                  "size": 1337
+                }
+              ]
+            },
+            {
+              "name": "1983",
+              "children": [
+                {
+                  "name": "Las Hojas massacre.",
+                  "size": 13960
+                },
+                {
+                  "name": "Marianella García killed.",
+                  "size": 5535
+                }
+              ]
+            },
+            {
+              "name": "1984",
+              "children": [
+                {
+                  "name": "José Duarte elected.",
+                  "size": 13892
+                }
+              ]
+            },
+            {
+              "name": "1985",
+              "children": [
+                {
+                  "name": "Inés Duarte kidnapped.",
+                  "size": 11605
+                }
+              ]
+            },
+            {
+              "name": "1986",
+              "children": [
+                {
+                  "name": "CNR helps repopulate.",
+                  "size": 1588
+                }
+              ]
+            },
+            {
+              "name": "1987",
+              "children": [
+                {
+                  "name": "Esquipulas II agreement.",
+                  "size": 18058
+                }
+              ]
+            },
+            {
+              "name": "1988",
+              "children": [
+                {
+                  "name": "Herbert Anaya assassinated.",
+                  "size": 4393
+                }
+              ]
+            },
+            {
+              "name": "1989",
+              "children": [
+                {
+                  "name": "Cristiani elected.",
+                  "size": 13215
+                },
+                {
+                  "name": "Jesuit priests killed.",
+                  "size": 13705
+                }
+              ]
+            },
+            {
+              "name": "1991",
+              "children": [
+                {
+                  "name": "UN Observer Mission.",
+                  "size": 20563
+                }
+              ]
+            },
+            {
+              "name": "1992",
+              "children": [
+                {
+                  "name": "Chapultepec peace agreement.",
+                  "size": 14054
+                }
+              ]
+            },
+            {
+              "name": "1993",
+              "children": [
+                {
+                  "name": "Amnesty law abolished.",
+                  "size": 22131
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "memory_initiatives",
+          "children": [
+            {
+              "name": "Report on the 12-year war (1993).",
+              "size": 23046
+            },
+            {
+              "name": "IACHR resolution on El Mozote massacres (2012).",
+              "size": 64
+            }
+          ]
+        },
+        {
+          "name": "sites_of_memory",
+          "children": [
+            {
+              "name": "Memorial in Cuscatlán Park (2003).",
+              "size": 2590
+            },
+            {
+              "name": "Sisiguayo Memorial (2018).",
+              "size": 2376
+            }
+          ]
+        },
+        {
+          "name": "organizations",
+          "children": [
+            {
+              "name": "COMADDRES and CODEFAM organizations.",
+              "size": 9717
+            },
+            {
+              "name": "Tutela legal del Arzobispado (1982-1993).",
+              "size": 10336
+            },
+            {
+              "name": "CDHES organization (since 1982).",
+              "size": 11036
+            },
+            {
+              "name": "Truth Commission (post-peace agreement).",
+              "size": 5458
+            },
+            {
+              "name": "Procuradoría for Human Rights (post-peace agreement).",
+              "size": 4975
+            }
+          ]
+        },
+        {
+          "name": "issues_specific_to_the_country",
+          "children": [
+            {
+              "name": "Petitions for transitional justice law.",
+              "size": 16203
+            },
+            {
+              "name": "Government scrutiny for human rights violations.",
+              "size": 10828
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Panama Dictatorships (1968-1989)",
+      "children": [
+        {
+          "name": "categories",
+          "children": [
+            {
+              "name": "Dictatorship",
+              "size": 5446
+            },
+            {
+              "name": "coup",
+              "size": 7592
+            },
+            {
+              "name": "Operation Condor",
+              "size": 1901
+            },
+            {
+              "name": "international armed conflict",
+              "size": 1230
+            },
+            {
+              "name": "truth commission",
+              "size": 5372
+            }
+          ]
+        },
+        {
+          "name": "actors",
+          "children": [
+            {
+              "name": "Guardia Nacional, the armed forces of Panama",
+              "size": 23480
+            },
+            {
+              "name": "various Panamanian political parties",
+              "size": 21024
+            },
+            {
+              "name": "Panamanian civil organizations",
+              "size": 20795
+            },
+            {
+              "name": "Government of the United States of America",
+              "size": 16306
+            }
+          ]
+        },
+        {
+          "name": "key_historical_events",
+          "children": [
+            {
+              "name": "1968",
+              "children": [
+                {
+                  "name": "Coup by the Guardia Nacional",
+                  "size": 13628
+                }
+              ]
+            },
+            {
+              "name": "1969",
+              "children": [
+                {
+                  "name": "General Omar Torrijos in power",
+                  "size": 200
+                }
+              ]
+            },
+            {
+              "name": "1970",
+              "children": [
+                {
+                  "name": "Detention and disappearance of Heliodoro Portugal",
+                  "size": 13107
+                }
+              ]
+            },
+            {
+              "name": "1971",
+              "children": [
+                {
+                  "name": "Kidnapping and killing of Jesús Héctor Gallego",
+                  "size": 18469
+                }
+              ]
+            },
+            {
+              "name": "1977",
+              "children": [
+                {
+                  "name": "IACHR delegation visit",
+                  "size": 2642
+                }
+              ]
+            },
+            {
+              "name": "1981",
+              "children": [
+                {
+                  "name": "Death of General Torrijos",
+                  "size": 18800
+                }
+              ]
+            },
+            {
+              "name": "1983",
+              "children": [
+                {
+                  "name": "Manuel Antonio Noriega in control",
+                  "size": 2209
+                }
+              ]
+            },
+            {
+              "name": "1985",
+              "children": [
+                {
+                  "name": "Killing of Hugo Spadafora",
+                  "size": 9930
+                }
+              ]
+            },
+            {
+              "name": "1987",
+              "children": [
+                {
+                  "name": "Mass protests against Noriega",
+                  "size": 24451
+                }
+              ]
+            },
+            {
+              "name": "1989",
+              "children": [
+                {
+                  "name": "Albrook Massacre and U.S. invasion",
+                  "size": 17552
+                },
+                {
+                  "name": "Guillermo Endara becomes president",
+                  "size": 9712
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "memory_initiatives",
+          "children": [
+            {
+              "name": "Informe de la Comisión de la Verdad (2002)",
+              "size": 1374
+            },
+            {
+              "name": "Case Heliodoro Portugal versus Panama (2008)",
+              "size": 6729
+            },
+            {
+              "name": "Friendly settlements in Case 13,017 (2019)",
+              "size": 3228
+            }
+          ]
+        },
+        {
+          "name": "sites_of_memory",
+          "children": [
+            {
+              "name": "Cuartel Los Pumas",
+              "size": 21788
+            }
+          ]
+        },
+        {
+          "name": "organizations",
+          "children": [
+            {
+              "name": "Comité Panameño por los Derechos Humanos (CPDH)",
+              "size": 3410
+            },
+            {
+              "name": "Coordinadora Popular de Derechos Humanos de Panamá",
+              "size": 11831
+            },
+            {
+              "name": "Comité de Familiares de Asesinados y Desaparecidos",
+              "size": 23002
+            },
+            {
+              "name": "Comisión de la Verdad (2001)",
+              "size": 16859
+            },
+            {
+              "name": "Comisión 20 de Diciembre 1989 (2016)",
+              "size": 5171
+            }
+          ]
+        },
+        {
+          "name": "issues_specific_to_the_country",
+          "children": [
+            {
+              "name": "U.S. involvement in Panamanian politics",
+              "size": 2786
+            },
+            {
+              "name": "School of the Americas in Panama",
+              "size": 15087
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Paraguay Dictatorship (1954-1989)",
+      "children": [
+        {
+          "name": "categories",
+          "children": [
+            {
+              "name": "Dictatorship",
+              "size": 6223
+            },
+            {
+              "name": "coup",
+              "size": 12653
+            },
+            {
+              "name": "Operation Condor",
+              "size": 5018
+            },
+            {
+              "name": "indigenous peoples",
+              "size": 22608
+            },
+            {
+              "name": "reparations law",
+              "size": 13942
+            },
+            {
+              "name": "truth commission",
+              "size": 21095
+            },
+            {
+              "name": "state museum",
+              "size": 21973
+            },
+            {
+              "name": "memorial sites",
+              "size": 14868
+            }
+          ]
+        },
+        {
+          "name": "actors",
+          "children": [
+            {
+              "name": "Paraguayan armed forces",
+              "size": 13212
+            },
+            {
+              "name": "Uruguayan political parties",
+              "size": 5721
+            },
+            {
+              "name": "Paraguayan civil organizations",
+              "size": 6725
+            }
+          ]
+        },
+        {
+          "name": "key_historical_events",
+          "children": [
+            {
+              "name": "1954",
+              "children": [
+                {
+                  "name": "Alfredo Stroessner's Coup",
+                  "size": 10362
+                }
+              ]
+            },
+            {
+              "name": "1959",
+              "children": [
+                {
+                  "name": "Persecution of Homosexuals (Case 108)",
+                  "size": 10057
+                }
+              ]
+            },
+            {
+              "name": "1973",
+              "children": [
+                {
+                  "name": "Genocide of the Aché People",
+                  "size": 18447
+                }
+              ]
+            },
+            {
+              "name": "1976",
+              "children": [
+                {
+                  "name": "'Pascua Dolorosa' Repression Campaign",
+                  "size": 395
+                }
+              ]
+            },
+            {
+              "name": "1988",
+              "children": [
+                {
+                  "name": "Marcha por la Vida Repression",
+                  "size": 7407
+                }
+              ]
+            },
+            {
+              "name": "1989",
+              "children": [
+                {
+                  "name": "Coup Ending Stroessner's Regime",
+                  "size": 11755
+                }
+              ]
+            },
+            {
+              "name": "1992",
+              "children": [
+                {
+                  "name": "Discovery of the 'Archive of Terror'",
+                  "size": 5005
+                }
+              ]
+            },
+            {
+              "name": "2006",
+              "children": [
+                {
+                  "name": "Inter-American Court Ruling on 'Goiburú and Others vs.Paraguay'",
+                  "size": 8235
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "memory_initiatives",
+          "children": [
+            {
+              "name": "Informe Final de la Comisión de Verdad y Justicia (2008)",
+              "size": 23790
+            },
+            {
+              "name": "Ley Nº 3603 (2008)",
+              "size": 8219
+            }
+          ]
+        },
+        {
+          "name": "sites_of_memory",
+          "children": [
+            {
+              "name": "Museo de las Memorias: Dictadura y Derechos Humanos",
+              "size": 9979
+            },
+            {
+              "name": "Museo de la Justicia, Centro de Documentación y Archivo Defensa",
+              "size": 20626
+            },
+            {
+              "name": "Plaza de los Desaparecidos",
+              "size": 1579
+            },
+            {
+              "name": "Abraham Cue",
+              "size": 23000
+            }
+          ]
+        },
+        {
+          "name": "organizations",
+          "children": [
+            {
+              "name": "Comité de Iglesias para Ayudas de Emergencia",
+              "size": 1093
+            },
+            {
+              "name": "Coordinadora de Derechos Humanos en Paraguay",
+              "size": 12851
+            },
+            {
+              "name": "Mesa Memoria Histórica y Archivos de la Represión",
+              "size": 13133
+            },
+            {
+              "name": "Comisión Verdad y Justicia (CVR)",
+              "size": 6099
+            }
+          ]
+        },
+        {
+          "name": "issues_specific_to_the_country",
+          "children": [
+            {
+              "name": "Phenomenon of 'Tierras Mal Habidas'",
+              "size": 7816
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Uruguay Dictatorship (1973-1985)",
+      "children": [
+        {
+          "name": "categories",
+          "children": [
+            {
+              "name": "Dictatorship",
+              "size": 21218
+            },
+            {
+              "name": "coup",
+              "size": 7340
+            },
+            {
+              "name": "Operation Condor",
+              "size": 7206
+            },
+            {
+              "name": "amnesty law",
+              "size": 3733
+            },
+            {
+              "name": "reparation law",
+              "size": 247
+            },
+            {
+              "name": "truth commission",
+              "size": 1340
+            },
+            {
+              "name": "state museum",
+              "size": 24118
+            },
+            {
+              "name": "memorial sites",
+              "size": 3851
+            }
+          ]
+        },
+        {
+          "name": "actors",
+          "children": [
+            {
+              "name": "Uruguayan armed forces",
+              "size": 8136
+            },
+            {
+              "name": "Uruguayan political parties",
+              "size": 7472
+            },
+            {
+              "name": "social organizations",
+              "size": 16611
+            },
+            {
+              "name": "guerrilla movements active during the previous decade",
+              "size": 22281
+            }
+          ]
+        },
+        {
+          "name": "key_historical_events",
+          "children": [
+            {
+              "name": "1973",
+              "children": [
+                {
+                  "name": "Coup d’état on June 27",
+                  "size": 21649
+                }
+              ]
+            },
+            {
+              "name": "1976",
+              "children": [
+                {
+                  "name": "Armed forces oust Bordaberry",
+                  "size": 19318
+                }
+              ]
+            },
+            {
+              "name": "1976",
+              "children": [
+                {
+                  "name": "Murder of Zelmar, Héctor, Rosario, and William in Buenos Aires",
+                  "size": 15302
+                }
+              ]
+            },
+            {
+              "name": "1980",
+              "children": [
+                {
+                  "name": "Uruguayans reject constitutional reform in a referendum",
+                  "size": 13709
+                }
+              ]
+            },
+            {
+              "name": "1983",
+              "children": [
+                {
+                  "name": "Acto del Obelisco - Large rally in favor of democracy",
+                  "size": 12147
+                }
+              ]
+            },
+            {
+              "name": "1984",
+              "children": [
+                {
+                  "name": "Negotiations between political parties and armed forces",
+                  "size": 18361
+                }
+              ]
+            },
+            {
+              "name": "1985",
+              "children": [
+                {
+                  "name": "Release of the last political prisoners from Cárcel Central",
+                  "size": 2156
+                }
+              ]
+            },
+            {
+              "name": "1985",
+              "children": [
+                {
+                  "name": "Julio María Sanguinetti assumes the presidency",
+                  "size": 17457
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "memory_initiatives",
+          "children": [
+            {
+              "name": "Ley 15.737 (1985) - Amnesty law for political crimes",
+              "size": 6149
+            },
+            {
+              "name": "Informe final de la Comisión por la paz (2003)",
+              "size": 19967
+            },
+            {
+              "name": "Investigación Histórica sobre Detenidos–Desaparecidos (2006)",
+              "size": 14055
+            },
+            {
+              "name": "Ley 18.596 (2009) - Reparation for victims",
+              "size": 20024
+            },
+            {
+              "name": "Ley 19.641 (2018) - Sites of Remembrance law",
+              "size": 21160
+            }
+          ]
+        },
+        {
+          "name": "sites_of_memory",
+          "children": [
+            {
+              "name": "Memorial en Recordación de los Detenidos y Desaparecidos",
+              "size": 13286
+            },
+            {
+              "name": "Marcas de la memoria - Commemorative plaques project",
+              "size": 23194
+            },
+            {
+              "name": "Museo de la memoria (MUME) - Human rights institution",
+              "size": 19813
+            },
+            {
+              "name": "Marcha del silencio - Annual walk for justice",
+              "size": 8305
+            }
+          ]
+        },
+        {
+          "name": "organizations",
+          "children": [
+            {
+              "name": "Servicio Paz y Justicia Uruguay  - NGO since 1981",
+              "size": 23574
+            },
+            {
+              "name": "Madres y familiares de uruguayos detenidos desaparecidos ",
+              "size": 22532
+            },
+            {
+              "name": "Institución de Estudios Sociales y Legales del Uruguay",
+              "size": 21773
+            },
+            {
+              "name": "Comisión Investigadora sobre la situación de Personas",
+              "size": 23708
+            },
+            {
+              "name": "Comisión por la Paz - Official Commission since 2000",
+              "size": 16413
+            }
+          ]
+        },
+        {
+          "name": "issues_specific_to_the_country",
+          "children": [
+            {
+              "name": "Nothing to show",
+              "size": 1471
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Venezuela Social Crises (1989-2019)",
+      "children": [
+        {
+          "name": "categories",
+          "children": [
+            {
+              "name": "Coup",
+              "size": 13461
+            },
+            {
+              "name": "armed forces",
+              "size": 16960
+            },
+            {
+              "name": "authoritarian government",
+              "size": 21200
+            },
+            {
+              "name": "economic crisis",
+              "size": 12040
+            },
+            {
+              "name": "migration",
+              "size": 24287
+            }
+          ]
+        },
+        {
+          "name": "actors",
+          "children": [
+            {
+              "name": "Venezuelan state",
+              "size": 1525
+            },
+            {
+              "name": "various Venezuelan political parties",
+              "size": 6161
+            },
+            {
+              "name": "Venezuelan civil organizations",
+              "size": 24459
+            }
+          ]
+        },
+        {
+          "name": "key_historical_events",
+          "children": [
+            {
+              "name": "1989",
+              "children": [
+                {
+                  "name": "El Caracazo",
+                  "size": 20014
+                }
+              ]
+            },
+            {
+              "name": "1992",
+              "children": [
+                {
+                  "name": "feb 4, Coup attempts",
+                  "size": 13417
+                }
+              ]
+            },
+            {
+              "name": "1993",
+              "children": [
+                {
+                  "name": "Impeachment of Pérez",
+                  "size": 8934
+                }
+              ]
+            },
+            {
+              "name": "1994",
+              "children": [
+                {
+                  "name": "In February, Rafael Caldera became president.",
+                  "size": 18516
+                }
+              ]
+            },
+            {
+              "name": "1999",
+              "children": [
+                {
+                  "name": "Hugo Chávez becomes president",
+                  "size": 1978
+                }
+              ]
+            },
+            {
+              "name": "2001",
+              "children": [
+                {
+                  "name": "Protests against the government",
+                  "size": 20306
+                }
+              ]
+            },
+            {
+              "name": "2002",
+              "children": [
+                {
+                  "name": "Coup d’état and general strike",
+                  "size": 21222
+                }
+              ]
+            },
+            {
+              "name": "2004",
+              "children": [
+                {
+                  "name": "Referendum on Chavéz’s presidency",
+                  "size": 18683
+                }
+              ]
+            },
+            {
+              "name": "2007",
+              "children": [
+                {
+                  "name": "Chávez's re-election",
+                  "size": 11943
+                }
+              ]
+            },
+            {
+              "name": "2012",
+              "children": [
+                {
+                  "name": "Chávez's victory and passing",
+                  "size": 1771
+                }
+              ]
+            },
+            {
+              "name": "2013",
+              "children": [
+                {
+                  "name": "Presidential election and protests",
+                  "size": 10409
+                }
+              ]
+            },
+            {
+              "name": "2014",
+              "children": [
+                {
+                  "name": "Protests against Maduro",
+                  "size": 21201
+                }
+              ]
+            },
+            {
+              "name": "2017",
+              "children": [
+                {
+                  "name": "Wave of protests",
+                  "size": 8502
+                }
+              ]
+            },
+            {
+              "name": "2019",
+              "children": [
+                {
+                  "name": "Guaidó's nomination and mass protests",
+                  "size": 11799
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "memory_initiatives",
+          "children": [
+            {
+              "name": "Nothing to show",
+              "size": 18168
+            }
+          ]
+        },
+        {
+          "name": "sites_of_memory",
+          "children": [
+            {
+              "name": "Nothing to show",
+              "size": 22337
+            }
+          ]
+        },
+        {
+          "name": "organizations",
+          "children": [
+            {
+              "name": "PROVEA - Human Rights Advocates",
+              "size": 16045
+            },
+            {
+              "name": "COFAVIC - Rights Promoters",
+              "size": 4880
+            },
+            {
+              "name": "Foro Penal - Legal Aid Providers",
+              "size": 8800
+            },
+            {
+              "name": "OVCS - Social Conflict Watchers",
+              "size": 10030
+            },
+            {
+              "name": "CEPAJ - Peace and Justice Center",
+              "size": 14796
+            },
+            {
+              "name": "UN Fact-Finding Mission on Venezuela",
+              "size": 14478
+            }
+          ]
+        },
+        {
+          "name": "issues_specific_to_the_country",
+          "children": [
+            {
+              "name": "Venezuela continues social, economic, and political crisis.",
+              "size": 21959
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Peru Internal armed conflict (1980-2000)",
+      "children": [
+        {
+          "name": "categories",
+          "children": [
+            {
+                "name": "Internal armed conflict",
+                "size": 13900
+            },
+            {
+                "name": "indigenous peoples",
+                "size": 23454
+            },
+            {
+                "name": "truth commission",
+                "size": 15643
+            },
+            {
+                "name": "reparations law",
+                "size": 13455
+            },
+            {
+                "name": "state museum",
+                "size": 15676
+            },
+            {
+                "name": "memorial sites",
+                "size": 13944
+            }
+          ]
+        },
+        {
+          "name": "actors",
+          "children": [
+            {
+                "name": "Peruvian state",
+                "size": 12344
+            },
+            {
+                "name": "terrorist guerrilla groups",
+                "size": 23654
+            },
+            {
+                "name": "Alberto Fujimori",
+                "size": 13945
+            },
+            {
+                "name": "civil organisations",
+                "size": 6754
+            }
+          ]
+        },
+        {
+          "name": "key_historical_events",
+          "children": [
+              {
+                  "name": "1980",
+                  "children": [
+                      {
+                        "name": "Attack by Sendero Luminoso guerrillas in Chuschi",
+                        "size": 23765
+                    }
+                ]
+            },
+            {
+                "name": "1983",
+                "children": [
+                    {
+                        "name": "Eight journalists, investigatory commission was set up",
+                        "size": 12345
+                    }
+                ]
+            },
+            {
+                "name": "1983",
+                "children": [
+                    {
+                        "name": "Lucanamarca Massacre: 69 Killed by Sendero Luminoso.",
+                        "size": 12765
+                    }
+                ]
+            },
+            {
+                "name": "1983",
+                "children": [
+                    {
+                        "name": "Socos, Ayacucho: Police Torture, 32 Killed.",
+                        "size": 13765
+                    }
+                ]
+            },
+            {
+                "name": "1984",
+                "children": [
+                    {
+                        "name": "MRTA Guerrilla Commences Operations.",
+                        "size": 27765
+                    }
+                ]
+            },
+            {
+                "name": "1985",
+                "children": [
+                    {
+                        "name": "Accomarca Massacre: Army Kills 69.",
+                        "size": 23754
+                    }
+                ]
+            },
+            {
+                "name": "1989",
+                "children": [
+                    {
+                        "name": "Sendero Luminoso forces attacked the police station in Uchiza",
+                        "size": 12432
+                    }
+                ]
+            },
+            {
+                "name": "1992",
+                "children": [
+                    {
+                        "name": "Fujimori's self-coup: dissolved Congress, seized power.",
+                        "size": 23763
+                    },
+                    {
+                        "name": "Sendero Luminoso car bombing in Lima's Miraflores district",
+                        "children": [
+                        	{
+                        		"name": "killing 25 people and wounding another 155",
+                                "size": 15765
+                        	}
+                        ]
+                        
+                    },
+                    {
+                        "name": "Cantuta Massacre: Colina Group kills 9 students, 1 professor",
+                        "size": 16765
+                    },
+                    {
+                        "name": "Abimael Guzmán was captured in September.",
+                        "size": 18765
+                    }
+                ]
+            },
+            {
+                "name": "1996",
+                "children": [
+                    {
+                        "name": "MRTA Embassy Siege: 4-month hostage crisis.",
+                        "size": 18665
+                    }
+                ]
+            },
+            {
+                "name": "1998",
+                "children": [
+                    {
+                        "name": "Tsiriari Valley Massacre: Local population massacred.",
+                        "size": 12365
+                    }
+                ]
+            },
+            {
+                "name": "2000",
+                "children": [
+                    {
+                        "name": "Fujimori's Resignation Amid Crisis.",
+                        "size": 12775
+                    }
+                ]
+            }
+          ]
+        },
+          {
+              "name": "memory_initiatives",
+              "children": [
+                  {
+                      "name": "Final Report of Truth and Reconciliation Commission (2003).",
+                      "size": 23764
+                  },
+                  {
+                      "name": "LawNo.28,592 Establishes Comprehensive Reparations Plan (2005)",
+                      "size": 15765
+                  },
+                  {
+                      "name": "Caso Abimael Guzmán y otros (2006)",
+                      "size": 14565
+                  },
+                  {
+                      "name": "Juicio a Alberto Fujimori (2009)",
+                      "size": 19205
+                  }
+              ]
+          },
+          {
+              "name": "sites_of_memory",
+              "children": [
+                  {
+                      "name": "Yuyanapaq: para recorda",
+                      "size": 19234
+                  },
+                  {
+                      "name": "Museo de la memoria “Para que no se repita”",
+                      "size": 17654
+                  },
+                  {
+                      "name": "El ojo que llora",
+                      "size": 23432
+                  },
+                  {
+                      "name": "Lugar de la Memoria, la Tolerancia y la Inclusión Social (LUM)",
+                      "size": 20211
+                  }
+              ]
+          },
+          {
+              "name": "organizations",
+              "children": [
+                  {
+                      "name": "ANFASEP",
+                      "size": 19278
+                  },
+                  {
+                      "name": "Coordinadora nacional de derechos humanos (CNDDHH)",
+                      "size": 24323
+                  },
+                  {
+                      "name": "Comisión de Verdad y Reconciliación",
+                      "size": 23876
+                  }
+              ]
+          },
+          {
+              "name": "issues_specific_to_the_country",
+              "children": [
+                  {
+                      "name": "Conflict in Andean regions.",
+                      "size": 24786
+                  }
+              ]
+            }
+        ]
+    }
+  ]
+}
