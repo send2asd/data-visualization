@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualization Project</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Visualization Project</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Historical Timeline</a></li>
+                    <li><a href="timeline.html">Key Historical Event Timeline</a></li>
+                    <li><a href="map.html">Map</a></li>
+                    <li><a href="sunburst.html">Zoomable Sunburst</a></li>
+                    <li><a href="tree.html">Cluster Tree</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+  <div id="container">
+    <svg id="treeSVG" width="960" height="600"></svg>
+  </div>
+
+  <script>
+      d3.json("countries_tree.json").then(function(dataset) {
+
+  // Configure margins and canvas dimensions
+  var chartMargin = {top: 40, right: 200, bottom: 40, left: 200},
+  chartHeight = 1000 - chartMargin.top - chartMargin.bottom,
+      chartWidth = 5200 - chartMargin.left - chartMargin.right;
+
+  // Create an SVG canvas
+  var svgCanvas = d3.select("#treeSVG")
+    .attr("height", chartHeight + chartMargin.top + chartMargin.bottom)
+    .attr("width", chartWidth + chartMargin.right + chartMargin.left)
+    .append("g")
+    .attr("transform", "translate(" + chartMargin.left + "," + chartMargin.top + ")");
+
+    var animDuration = 750;
+    var rootNode;
+    var indexCounter = 0;
+
+
+  //  setup of layout
+  var treeLayout = d3.tree()
+      .size([chartHeight, chartWidth])
+      .separation(function(a, b) {
+          return a.parent === b.parent ? 1 : 2;
+      });
+
+  // Process hierarchy data
+  rootNode = d3.hierarchy(dataset, function(d) { return d.children; });
+  rootNode.x0 = chartHeight / 2;
+  rootNode.y0 = 0;
+
+  // Initialize the display to show a few nodes
+  rootNode.children.forEach(toggleCollapse);
+
+  updateChart(rootNode);
+
+  // Collapse the node and all its children
+  function toggleCollapse(node) {
+    if(node.children) {
+      node._children = node.children;
+      node._children.forEach(toggleCollapse);
+      node.children = null;
+    }
+  }
+
+  // Update the nodes and links
+  function updateChart(sourceNode) {
+    var treeData = treeLayout(rootNode);
+    var nodeData = treeData.descendants(),
+        linkData = treeData.descendants().slice(1);
+
+    // Normalize for fixed-depth
+    nodeData.forEach(function(d) { d.y = d.depth * 180; });
+
+    // Node selection and enter node group
+    var nodeGroup = svgCanvas.selectAll('g.nodeGroup')
+        .data(nodeData, function(d) { return d.id || (d.id = ++indexCounter); });
+
+    var nodeEnterGroup = nodeGroup.enter().append('g')
+        .attr('class', 'nodeGroup')
+        .attr("transform", function(d) {
+          return "translate(" + sourceNode.y0 + "," + sourceNode.x0 + ")";
+        })
+        .on('click', handleNodeClick);
+
+    // Add node circles
+    nodeEnterGroup.append('circle')
+        .attr('r', 5)
+        .attr('class', 'nodeCircle')
+        .style("fill", function(d) {
+            return d3.schemeCategory10[d.depth % 10];
+        });
+
+    // Add node text
+    nodeEnterGroup.append('text')
+    .attr("dy", ".35em")
+    .attr("x", function(d) {
+        return d.children || d._children ? -13 : 13;
+    })
+    .attr("text-anchor", function(d) {
+        return d.children || d._children ? "end" : "start";
+    })
+    .style("font-weight", "bold")
+    .text(function(d) { return d.data.name; });
+
+    // Node update
+    var nodeUpdateGroup = nodeEnterGroup.merge(nodeGroup);
+
+    nodeUpdateGroup.transition()
+      .duration(animDuration)
+      .attr("transform", function(d) { 
+          return "translate(" + d.y + "," + d.x + ")";
+      });
+
+    // Update node attributes and style
+    nodeUpdateGroup.select('circle.nodeCircle')
+      .attr('r', 10)
+      .style("fill", function(d) {
+          return d3.schemeCategory10[d.depth % 10];
+      })
+      .attr('cursor', 'pointer');
+
+    // Node exit transition
+    var nodeExitGroup = nodeGroup.exit().transition()
+        .duration(animDuration)
+        .attr("transform", function(d) {
+            return "translate(" + sourceNode.y + "," + sourceNode.x + ")";
+        })
+        .remove();
+
+    nodeExitGroup.select('circle')
+      .attr('r', 1e-6);
+
+    nodeExitGroup.select('text')
+      .style('fill-opacity', 1e-6);
+
+    // Link section
+    var linkPath = svgCanvas.selectAll('path.linkPath')
+        .data(linkData, function(d) { return d.id; });
+
+    var linkEnter = linkPath.enter().insert('path', "g")
+        .attr("class", "linkPath")
+        .style("stroke", function(d) {
+          return d3.schemeCategory10[d.depth % 10];
+        })
+        .attr('d', function(d) {
+          var origin = {x: sourceNode.x0, y: sourceNode.y0};
+          return straightPath(origin, origin);
+        });
+
+    // Link update
+    var linkUpdate = linkEnter.merge(linkPath);
+
+    linkUpdate.transition()
+        .duration(animDuration)
+        .attr('d', function(d) { return straightPath(d, d.parent) });
+
+    // Link exit transition
+    var linkExit = linkPath.exit().transition()
+        .duration(animDuration)
+        .attr('d', function(d) {
+          var origin = {x: sourceNode.x, y: sourceNode.y};
+          return straightPath(origin, origin);
+        })
+        .remove();
+
+    // Stash the old positions for transition
+    nodeData.forEach(function(d) {
+      d.y0 = d.y;
+      d.x0 = d.x;
+    });
+
+    // Draw a straight path from parent to the child nodes
+    function straightPath(s, d) {
+      return `M ${s.y},${s.x} L ${d.y},${d.x}`;
+    }
+
+    // Toggle children on click
+    function handleNodeClick(clickedNode) {
+      if (clickedNode.children) {
+          clickedNode._children = clickedNode.children;
+          clickedNode.children = null;
+        } else {
+          clickedNode.children = clickedNode._children;
+          clickedNode._children = null;
+        }
+      updateChart(clickedNode);
+    }
+  }
+});
+
+  </script>
+    <footer>
+        <p class="copyright">&copy; 2023 Visualization Project. All rights reserved.</p>
+    </footer>
+</body>
+</html>
