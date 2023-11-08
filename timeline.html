@@ -6,6 +6,34 @@
     <title>Visualization Project</title>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+    	.axis path,
+        .axis line {
+            fill: none;
+            stroke: black;
+            shape-rendering: crispEdges;
+        }
+
+        .axis text {
+            font-family: sans-serif;
+            font-size: 10px;
+        }
+
+        .timeline {
+            fill: none;
+            stroke: blue;
+            stroke-width: 3px;
+        }
+
+        .event {
+            fill: red;
+            stroke: none;
+        }
+
+        select {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -24,12 +52,15 @@
             </nav>
         </div>
     </header>
+    <div>
+ <div style="float:left; display: inline;width:20%"> <select id="countrySelect"></select></div>
+ <div style="float:left; display: inline; width:80%;text-align: center;" class="title"> Timeline of key events in <b><span id="title_span"></span></b></div>
+    </div>
+   <div>
+   </div>
     
-  <div id="container">
-    <svg id="treeSVG" width="960" height="600"></svg>
-  </div>
 
-  <script src="js/tree.js"></script>
+    <script src="js/Timeline.js"></script>
     <footer>
         <p class="copyright">&copy; 2023 Visualization Project. All rights reserved.</p>
     </footer>

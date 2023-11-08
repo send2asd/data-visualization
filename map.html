@@ -7,7 +7,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.js"></script>
     <script src="https://d3js.org/d3.v6.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <style>
     	.country {
             stroke: #fff;
@@ -77,27 +77,27 @@
     <div id="event-details"></div>
     <div id="tooltip" style="display: none;"></div>
     <script>
-        // Add your JavaScript and D3 code here
-var width = 1400, height = 650; // Increased size
+        
+var width = 1400, height = 650; 
 
-// Define map projection
+
 var projection = d3.geoMercator()
-    .scale(400) // Adjusted scale for the larger map
-    .translate([width / 2, height / 4]); // Adjusted to center the map
+    .scale(400) 
+    .translate([width / 2, height / 4]); 
 
-// Define path generator
+
 var path = d3.geoPath().projection(projection);
 
-// Create SVG element
+
 var svg = d3.select("#map")
     .attr("width", width)
     .attr("height", height)
-    .style("display", "block") // Ensure it's a block-level element
-    .style("margin", "0 auto"); // Center the SVG in the container
+    .style("display", "block") 
+    .style("margin", "0 auto"); 
 
-        // Load in GeoJSON data
+        
         d3.json('map.json').then(function(geojson) {
-            // Bind data and create one path per GeoJSON feature
+            
             svg.selectAll("path")
                 .data(geojson.features)
                 .enter()
@@ -124,7 +124,7 @@ var svg = d3.select("#map")
                 });
         });
 
-        // Load your sample data here
+        
         var sampleData = [
     {
         "country": "Argentina",
@@ -736,25 +736,25 @@ var svg = d3.select("#map")
     }
 ];
 
-        // Event listeners for the sliders and search box
+        
         d3.select("#keywordSearch").on("input", function() {
             updateVisualization();
         });
 
-        // Initialization for the noUiSlider
+        
         var yearRangeSlider = document.getElementById('year-range-slider');
         noUiSlider.create(yearRangeSlider, {
             start: [2018, 2020],
             connect: true,
             orientation: 'vertical',
-            direction: 'rtl', // For vertical slider, to start from bottom
+            direction: 'rtl', 
             range: {
                 'min': 1950,
                 'max': 2020
             }
         });
 
-        // Update the visualization when the slider value changes
+        
         yearRangeSlider.noUiSlider.on('update', function (values, handle) {
             var yearStart = parseInt(values[0]);
             var yearEnd = parseInt(values[1]);
@@ -764,12 +764,12 @@ var svg = d3.select("#map")
         });
 
         function updateVisualization() {
-            // Get the values from the input elements
+            
             var startYear = parseInt(d3.select("#yearRangeStartLabel").text());
             var endYear = parseInt(d3.select("#yearRangeEndLabel").text());
             var keyword = d3.select("#keywordSearch").property("value").toLowerCase();
 
-            // Filter the sample data based on the year range and keyword
+            
             var filteredCountries = sampleData.filter(function(d) {
                 var events = d.key_historical_events;
                 var matchesKeyword = Object.values(events).some(function(event) {
@@ -782,7 +782,7 @@ var svg = d3.select("#map")
                 return matchesKeyword && inTimeRange;
             });
 
-            // Highlight the filtered countries
+            
             svg.selectAll(".country")
                 .classed("highlighted", function(d) {
                     return filteredCountries.map(function(c) { return c.country; }).includes(d.properties.name);
@@ -790,19 +790,19 @@ var svg = d3.select("#map")
         }
 
         function displayEventDetails(countryData) {
-    // Get the values from the input elements
+    
     var startYear = parseInt(d3.select("#yearRangeStartLabel").text());
     var endYear = parseInt(d3.select("#yearRangeEndLabel").text());
     var keyword = d3.select("#keywordSearch").property("value").toLowerCase();
 
-    // Update the #event-details div with the country's event details
+    
     let detailsHtml = `<h3>Events for ${countryData.country}:</h3>`;
     Object.entries(countryData.key_historical_events).forEach(function([year, event]) {
         var eventYear = parseInt(year);
-        // Check if the event falls within the filtered years and matches the keyword
+        
         if(eventYear >= startYear && eventYear <= endYear && event.toLowerCase().includes(keyword)) {
             detailsHtml += `<p><strong>${year}:</strong> ${event}</p>`;
-            // Conditionally add images for specific events
+            
             if(countryData.country === 'Argentina' && eventYear === 1973) {
                 detailsHtml += `<img src="Argentina1973.jpeg" alt="Argentina 1973 event image" />`;
             } else if(countryData.country === 'Brazil' && eventYear === 1964) {
