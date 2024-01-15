@@ -1,5 +1,5 @@
 
-# Part I: Visualization Design
+# Visualization Design
 ## Overview
 - The project aims to create a visualization for unstructured data, specifically stories about approximately 12 countries in South America. The goal is to make the data more accessible and interesting for users who want to explore historical events in these countries.
 
