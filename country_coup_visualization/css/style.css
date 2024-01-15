@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    max-width: 1200px; /* Maximum width of the container */
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #50b3a2;
+    color: white;
+    padding: 10px 0; /* Reduced padding for smaller screens */
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+    text-align: center; /* Center align for smaller screens */
+}
+header li {
+    display: inline-block; /* Changed from inline to inline-block */
+    margin: 10px 20px; /* Consistent margin for all sides */
+}
+header #branding {
+    text-align: center; /* Center branding for smaller screens */
+    width: 100%; /* Full width for smaller screens */
+    float: none; /* Remove float for smaller screens */
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    clear: both; /* Clear float */
+    text-align: center; /* Center align nav for smaller screens */
+}
+footer {
+    background-color: #e8491d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Changed from fixed to relative */
+    width: 100%;
+}
+.copyright {
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 768px) {
+    .container, header nav, header #branding, header li {
+        width: 100%;
+    }
+    header li {
+        margin: 10px 0; /* Stack the links vertically */
+    }
+    header a {
+        font-size: 14px; /* Smaller font size for smaller screens */
+    }
+}
+@media (max-width: 480px) {
+    header li {
+        display: block; /* Each link as a block for smaller screens */
+    }
+}
